@@ -42,8 +42,6 @@
 
       JerryLabs
 
-      <div class="textlogo__name">Games</div>
-
     </a>
 
   </div>

@@ -1,76 +1,153 @@
-.mobile-menu-icon.expanded img.open,
-.mobile-menu-icon:not(.expanded) img.close { display: none; }
-
-.current-menu-item a {
-  padding-bottom: calc(.625rem - 5px);
-  border-bottom: 5px solid #f08080;
-}
-
-@media (max-width: 440px) {
-  .current-menu-item a {
-    padding-bottom: .625rem;
-    padding-left: calc(2rem - 5px);
-    border-bottom: none;
-    border-left: 5px solid #f08080;
-  }
-}
-
-.container > h1:not(.jumbotron__title) { margin: 1.5rem auto 0; }
-
-.card__date { float: right; }
-
-.jumbotron__text {
-  background: rgba(75,0,130,.7);
-  padding: 1rem;
-  color: #fff;
-  position: absolute;
-  bottom: 1rem;
-}
-
-@media (max-width: 620px) {
-  .jumbotron__text {
-    position: static;
-    margin: 1rem 0;
-  }
-}
-
-.jumbotron__text h1 { margin: 0 !important; padding: 0; background: none; position: static; bottom: 1rem; }
-.jumbotron__text p { margin: 0; }
-
-.language-switch {
-  height: 2rem;
-  width: 2rem;
-  border-radius: 2rem;
-  box-shadow: 0 0 0.5rem #fff;
-  background: transparent url(../img/cz-flag.svg) center center no-repeat;
-  background-size: cover;
-  float: right;
-  margin-top: 1.2rem;
-}
-
-@media (max-width:440px) {
-  .language-switch {
-    position: absolute;
-    right: 4.4rem;
-    top: 0.2rem;
-  }
-}
-
-.card__image { background-repeat: no-repeat; }
-.gameInfo__preview img { max-width: 200px; }
-.image-fix .card__image { height: 16rem; width: auto; }
-@media (max-width: 1200px) { .image-fix .card__image { min-height: 12rem; }}
-
-.page-template-games,
-.page-template-contact { text-align: center; }
-.page-template-games p,
-.page-template-contact p { margin: 0 auto 1rem; }
-
-.contact__address { text-align: left; }
-
-.contact__photo { height: 6rem; }
-
-.textlogo__name {
-  text-align: center;
-  font-size: 100%;
+.mobile-menu-icon.expanded img.open,
+
+.mobile-menu-icon:not(.expanded) img.close { display: none; }
+
+
+
+.current-menu-item a {
+
+  padding-bottom: calc(.625rem - 5px);
+
+  border-bottom: 5px solid #f08080;
+
+}
+
+
+
+@media (max-width: 440px) {
+
+  .current-menu-item a {
+
+    padding-bottom: .625rem;
+
+    padding-left: calc(2rem - 5px);
+
+    border-bottom: none;
+
+    border-left: 5px solid #f08080;
+
+  }
+
+}
+
+
+
+.container > h1:not(.jumbotron__title) { margin: 1.5rem auto 0; }
+
+
+
+.card__date { float: right; }
+
+
+
+.jumbotron__text {
+
+  background: rgba(75,0,130,.7);
+
+  padding: 1rem;
+
+  color: #fff;
+
+  position: absolute;
+
+  bottom: 1rem;
+
+}
+
+
+
+@media (max-width: 620px) {
+
+  .jumbotron__text {
+
+    position: static;
+
+    margin: 1rem 0;
+
+  }
+
+}
+
+
+
+.jumbotron__text h1 { margin: 0 !important; padding: 0; background: none; position: static; bottom: 1rem; }
+
+.jumbotron__text p { margin: 0; }
+
+
+
+.language-switch {
+
+  height: 2rem;
+
+  width: 2rem;
+
+  border-radius: 2rem;
+
+  box-shadow: 0 0 0.5rem #fff;
+
+  background: transparent url(../img/cz-flag.svg) center center no-repeat;
+
+  background-size: cover;
+
+  float: right;
+
+  margin-top: 1.2rem;
+
+}
+
+
+
+@media (max-width:440px) {
+
+  .language-switch {
+
+    position: absolute;
+
+    right: 4.4rem;
+
+    top: 0.2rem;
+
+  }
+
+}
+
+
+
+.card__image { background-repeat: no-repeat; }
+
+.gameInfo__preview img { max-width: 200px; }
+
+.image-fix .card__image { height: 16rem; width: auto; }
+
+@media (max-width: 1200px) { .image-fix .card__image { min-height: 12rem; }}
+
+
+
+.page-template-games,
+
+.page-template-contact { text-align: center; }
+
+.page-template-games p,
+
+.page-template-contact p { margin: 0 auto 1rem; }
+
+
+
+.contact__address { text-align: left; }
+
+
+
+.contact__photo { height: 6rem; }
+
+
+
+.textlogo__name {
+  text-align: center;
+  font-size: 100%;
+}
+
+.card.label.new:before {
+  content: "New!";
+  padding: .1rem 4rem;
 }
