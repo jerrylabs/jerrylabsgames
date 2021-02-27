@@ -112,7 +112,11 @@
 
 }
 
-
+@media (min-width: 750px) {
+  p.big {
+    max-width: 44rem;
+  }
+}
 
 .card__image { background-repeat: no-repeat; }
 

@@ -342,21 +342,10 @@ get_header();
 
       }
 
-
-
     ?>
 
 
-
-
-
-
-
     <?php
-
-
-
-
 
 
 
@@ -457,6 +446,13 @@ get_header();
 
 
         </div>
+
+        <?php
+          $bgg_link = get_post_meta(get_the_ID(), 'bgg_link', true);
+          if ($bgg_link) {
+            echo '<div class="gameInfo__extLinks"><a href="'.$bgg_link.'" target="_blank" rel="noreferrer noopener"><img class="bggLogo" src="'.get_template_directory_uri().'/img/bgg.svg" alt="Profile on BoardGameGeek.com"></a></div>';
+          }
+        ?>
 
 
 

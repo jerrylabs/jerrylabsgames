@@ -22,9 +22,9 @@
 
       <div class="container">
         <p class="big center">
-          Welcome in JerryLabs, independent webdesign and boardgame studio.
-          Our <a href="/games">board games</a> are available for free to download, print and play under the <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank"  rel="noreferrer noopener">CC BY-NC-ND</a> license.
-          We will greatly appreciate if you consider supporting us to continue developing the games and keeping the world happy and enjoyable place <span role="img" aria-label="(^.^)">😊</span>
+          Welcome in JerryLabs, independent webdesign and board game studio.
+          Our <a href="/games">board games</a> are available for free to download, print and play.
+          Thank you for your donations which keep us making new games <span role="img" aria-label="Thanks!">🙏</span>
       </p>
       </div>
       <section id="games">
