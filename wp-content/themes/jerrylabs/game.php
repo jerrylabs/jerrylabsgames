@@ -401,7 +401,7 @@ get_header();
 
 
 
-        <h2>Galerie</h2>
+        <h2>Gallery</h2>
 
 
 
